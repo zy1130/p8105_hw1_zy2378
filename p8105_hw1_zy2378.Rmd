@@ -1,6 +1,6 @@
 ---
 title: "p8105_hw1_zy2378"
-output: html_document
+output: github_document
 ---
 ```{r}
 library(tidyverse)
@@ -32,7 +32,7 @@ as.numeric(pull(plot_df,d))
 ```
 #Problem2
 ```{r}
-summary(penguins)
+names(penguins)
 nrow(penguins)
 ncol(penguins)
 mean(penguins$flipper_length_mm)
